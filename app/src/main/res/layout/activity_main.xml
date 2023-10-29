@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/back_color">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
@@ -28,7 +29,9 @@
             android:layout_toLeftOf="@+id/btn_send"
             android:background="@drawable/message_design"
             android:hint="Enter The Prompt"
-            android:padding="16dp" />
+            android:textColorHint="@color/white"
+            android:padding="16dp"
+            android:textColor="@color/white"/>
 
         <ImageButton
             android:id="@+id/btn_send"
